@@ -1,17 +1,4 @@
 let sendResponse = document.querySelector('.button')
-let tester = document.querySelector('.test')
-let formSubmit = document.querySelector('.form')
-function activateResponse (e) {
-    e.preventDefault()
-    console.log(input.value)
-    input.value = input.placeholder
-    response.value = response.placeholder
-    confirmed.classList.add('.show')
-    setTimeout(() => {
-        confirmed.classList.remove('.show')
-    }, 300);
-    console.log('clicked')
-}
 
 sendResponse.addEventListener('click', function (event) {
     
