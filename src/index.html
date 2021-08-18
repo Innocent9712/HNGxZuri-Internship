@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>My Resume</title>
+</head>
+<body>
+    <header>
+        <h3>Hi There! I'm</h3>
+        <h1>Innocent Chukwuemeka</h1>
+    </header>
+    <main class="main">
+        <p>
+            I'm a Frontend Developer, with over a year of experience 
+            in taking designs and converting them to code. I can build out Web User Interfaces, 
+            while implementing proper semantics and making sure that the user has a wonderful 
+            experience interacting with the website across multiple devices.
+        </p>
+        <p>
+            I have proficient knowledge in using the following:
+        </p>
+        <ul class="stack-list">
+            <li><img src="./img/html.png" alt="html-logo"></li>
+            <li><img src="./img/css.png" alt="css-logo"></li>
+            <li><img src="./img/js.png" alt="javascript-logo"></li>
+            <li><img src="./img/react.png" alt="react-logo"></li>
+        </ul>
+        <p>You can also check me out on <span><a href="https://github.com/innocent9712" target="_blank" rel="noopener noreferrer">Github</a></span>.</p>
+        <h4>Contact Me</h4>
+        <form action="#" id="form">
+            <div class="form-input-container">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="form-input-container">
+                <label for="response">Response</label>
+                <textarea name="response" id="response" cols="30" rows="10" placeholder="type in the details of your response"></textarea>
+            </div>
+            <button type="submit" class="button">Send</button>
+            <p class="warning">input must not be empty</p>
+            <p class="res-confirmation">Response sent Successfully!</p>
+        </form>
+    </main>
+    <footer>
+        <p>Sponsored by:</p>
+        <div class="sponsors">
+            <a href="https://hng.tech/" target="_blank" rel="noopener noreferrer">
+                <img src="./img/hng.png" alt="hng-logo">
+            </a>
+            <a href="https://internship.zuri.team/" target="_blank" rel="noopener noreferrer">
+                <img src="./img/zuri-logo.svg" alt="zuri-logo">          
+            </a>
+        </div>
+    </footer>
+    <script src="/src/index.js"></script>
+</body>
+</html>
