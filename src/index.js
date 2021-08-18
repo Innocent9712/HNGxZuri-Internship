@@ -1,7 +1,6 @@
 let sendResponse = document.querySelector('.button')
 
-sendResponse.addEventListener('click', function (event) {
-    
+sendResponse.addEventListener('click', function (event) { 
     event.preventDefault()
     let input = document.querySelector('input')
     let response = document.querySelector('textarea')
